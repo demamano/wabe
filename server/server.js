@@ -4,7 +4,7 @@ const mongoose = require("mongoose")
 // initializations 
 const PORT = process.env.PORT || 3000;
 const app = express();
-const DBConnect = "";
+const DBConnect = "mongodb+srv://demaamano:IQrjhToGUOvDTCLM@cluster0.zbfks2s.mongodb.net/?retryWrites=true&w=majority";
 
 // middleware
 app.use(express.json());
