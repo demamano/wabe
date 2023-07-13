@@ -9,7 +9,10 @@
 .history
 .svn/
 migrate_working_dir/
-
+.vscode/
+.idea/
+ios/Pods/
+ios/Podfile.lock
 # IntelliJ related
 *.iml
 *.ipr
